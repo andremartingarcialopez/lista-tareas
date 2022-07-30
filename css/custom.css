@@ -1,0 +1,48 @@
+h1, h2 {
+    text-align: center;
+}
+
+#contenido {
+    margin-top: 40px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    gap: 20px;
+}
+
+.borrar-tarea,
+.borrar-tarea:hover {
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+.error {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 400px;
+    margin: 0 auto;
+    color: white;
+
+
+}
+
+.correcto {
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 400px;
+    margin: 0 auto;
+    color: white;
+
+
+}
